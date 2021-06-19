@@ -3,7 +3,7 @@ You can tip me with some sats [here](https://fitti.io/tips)!
 This is, and always will be, entirely free to use of course!
 
 # bitcoin-on-twitch
-Accept Bitcoin donations on Twitch, and integrate them into your Alerts!
+Accept Bitcoin donations on Twitch, and integrate them into your alerts!
 
 # Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
