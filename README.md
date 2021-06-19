@@ -5,7 +5,7 @@ This is, and always will be, entirely free to use of course!
 # Rough test setup guide
 This is currently intended for testing only.  
 You need to have git, python, and it's virtualenv module installed.
-1. Clone the repo
+1. Clone the repo and `cd` into it
 1. Create and enable a virtualenv
 1. In the venv, run `pip install -r requirements.txt`
 1. [Get an lntxbot wallet](https://t.me/lntxbot)
