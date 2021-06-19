@@ -22,7 +22,7 @@ You need to have git, python, and it's virtualenv module installed.
 1. Run `python wait_for_token.py` and leave this running
 1. On the Streamlabs App page, click the link that says "Sample Authentication URL"  
      towards the bottom of the page
-1. Allow access; this should redirect you to a plain text page that tells you to stop the server
+1. Click "Approve"; this should redirect you to a plain text page that tells you to stop the server
 1. Go back to the terminal that is running `wait_for_token.py`,  
      and hit ctrl+c to stop the server
 1. You should now be able to run `. ./start_lnbits.sh`, which should launch  
