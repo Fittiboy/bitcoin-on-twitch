@@ -16,8 +16,16 @@ if __name__ == "__main__":
     while (fiat := input(input_string).lower()) not in supported_currencies:
         input_string = "Your currency is either not supported, or " \
                        "you had a typo. Please try again: "
+    client_id = input("\nPlease input your Streamlabs Client ID: ")
+    client_secret = input("\nPlease input your Streamlabs Client Secret: ")
+    ip = input("\nPlease input the IP address of your server: ")
     with open('settings.json', 'w') as settings_file:
-        settings = {"fiat": fiat}
+        settings = {
+            "fiat": fiat,
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "ip": ip,
+        }
         json.dump(settings, settings_file, indent=4)
     print("Now installing LNbits...\n")
     run('. ./install_lnbits.sh', shell=True)
