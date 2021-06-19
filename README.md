@@ -1,3 +1,7 @@
+## Support the project
+You can tip me with some sats [here](https://fitti.io/tips)!  
+This is, and always will be, entirely free to use of course!
+
 # bitcoin-on-twitch
 Accept Bitcoin donations on Twitch, and integrate them into your Alerts!
 
