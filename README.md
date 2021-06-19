@@ -18,7 +18,7 @@ You need to have git, python, and it's virtualenv module installed.
      In "Redirect URI", enter "http://localhost:6969".  
 1. After hitting "Create", leave this page open for now, as it contains  
      your Client ID and Secret, which you will need in the next step  
-1. Run `python initial_setup.py` and follow the instructions
+1. Run `python initial_setup.py` and follow the instructions (enter `localhost` as the IP for now)
 1. Run `python wait_for_token.py` and leave this running
 1. On the Streamlabs App page, click the link that says "Sample Authentication URL"  
      towards the bottom of the page
