@@ -1,6 +1,9 @@
 # The local LNbits install
 lnbits/
 
+# Sensitive information
+settings.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
