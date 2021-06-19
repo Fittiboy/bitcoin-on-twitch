@@ -32,6 +32,9 @@ You need to have git, python, and it's virtualenv module installed.
 1. In SatsPayServer, hit "NEW CHARGE," and fill out all the required fields  
      In the "webhook" field, enter http://localhost:5001/
 1. Pay the charge with any lightning wallet  
+     (After hitting "CREATE CHARGE," the charge should appear in a list after  
+     an automatic refresh. On the very left side of that list entry is a small  
+     grey button that will open the payment link in a new tab.)
 
 If everything worked, you should see a new donation pop up [here](https://streamlabs.com/dashboard#/donations) (remember to refresh).  
 If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose)!
