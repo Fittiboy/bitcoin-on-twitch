@@ -27,7 +27,7 @@ You need to have git, python, and it's virtualenv module installed.
      and hit ctrl+c to stop the server
 1. You should now be able to run `. ./start_lnbits.sh`, which should launch  
      LNbits in the background, making it reachable at http://localhost:5000/
-1. Run `python webhook.py`
+1. Run `python webhook.py` and leave it running in the background
 1. Create a wallet, and enable the SatsPayServer extension under "Manage extensions"
 1. In SatsPayServer, hit "NEW CHARGE," and fill out all the required fields
      In the "webhook" field, enter http://localhost:5001/
