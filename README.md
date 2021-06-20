@@ -12,7 +12,7 @@ You need to have git, python, and it's virtualenv module installed.
 1. Create and enable a virtualenv
 1. In the venv, run `pip install -r requirements.txt`
 1. [Get an lntxbot wallet](https://t.me/lntxbot)
-1. Get an API key from lntxbot by messageing it `/api full`
+1. Get an API key from lntxbot by messaging it `/api full`
 1. Log in to https://streamlabs.com/
 1. [Register an App](https://streamlabs.com/dashboard#/apps/register)  
      As this is an app just for you, you can fill the name, description  
