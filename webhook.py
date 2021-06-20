@@ -1,6 +1,6 @@
 import json
+import requests
 
-from subprocess import run
 from flask import Flask, request, abort
 from pycoingecko import CoinGeckoAPI
 from waitress import serve
@@ -46,20 +46,17 @@ def webhook():
             comment = "No message!"
         amount = convert_to_fiat(sats, 'usd')
         url = "https://streamlabs.com/api/v1.0/donations"
-        d = "name=bitcoin" \
-            f"&message={str(sats)} sats: {comment}" \
-            f"&identifier=bitcoin_donos" \
-            f"&amount={amount}" \
-            f"&currency={fiat.upper()}" \
-            f"&access_token={access_token}"
-        # For some reason, I had issues making a valid request
-        # with Python's requests library. Please feel free to
-        # fix this. For now, curl works!
-        curl = f"curl --request POST --url {url} -d \"{d}\""
-        response = run(curl, shell=True, capture_output=True)
+        data = {
+                "name": "bitcoin",
+                "message": f"{str(sats)} sats: {comment}",
+                "identifier": "bitcoin_donos",
+                "amount": amount,
+                "currency": fiat.upper(),
+                "access_token": access_token,
+        }
+        response = requests.post(url, data=data)
         # For logging/debugging purposes
-        print(curl)
-        print(response.stdout)
+        print(response.json())
         return "Success!", 200
     else:
         abort(400)

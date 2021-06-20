@@ -1,6 +1,6 @@
 import json
+import requests
 
-from subprocess import run
 from flask import Flask, request
 
 app = Flask(__name__)
@@ -18,13 +18,14 @@ def get_token():
         ip = settings['ip']
     redirect_uri = f"http://{ip}:6969"
     url = "https://streamlabs.com/api/v1.0/token"
-    d = "grant_type=authorization_code" \
-        f"&code={code}" \
-        f"&client_id={client_id}" \
-        f"&client_secret={client_secret}" \
-        f"&redirect_uri={redirect_uri}"
-    curl = f"curl --request POST --url {url} -d \"{d}\""
-    response = json.loads(run(curl, shell=True, capture_output=True).stdout)
+    params = {
+        "grant_type": "authorization_code",
+        "code": code,
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "redirect_uri": redirect_uri,
+    }
+    response = requests.post(url, data=params).json()
     print(response)
     token = response['access_token']
     with open('settings.json', 'w') as settings_file:
