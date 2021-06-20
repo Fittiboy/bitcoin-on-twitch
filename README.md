@@ -1,3 +1,6 @@
+# The system in action
+Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
+
 ## Support the project
 You can tip me with some sats [here](https://fitti.io/tips)!  
 This is, and always will be, entirely free to use of course!
