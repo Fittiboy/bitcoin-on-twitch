@@ -35,8 +35,8 @@ You can try sending yourself a test donation afterwards.
 If everything worked, you should see the donation pop up [here](https://streamlabs.com/dashboard#/donations) (remember to refresh).  
 If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose) or [send me an email](mailto:fitti@btctwt.ch) at fitti@btctwt.ch!  
 
-To stop lnbits (and ngrok if it's running), run `. ./kill_lnbits.sh`, but be aware that this will kill all processes that have "lnbits" and "ngrok" in their name.
-If for whatever reason you have other processes running that have those names in them, kill lnbits manually.
+To stop LNbits (and ngrok if it's running), run `. ./kill_lnbits.sh`, but be aware that this will kill all processes that have "lnbits" and "ngrok" in their name.
+If for whatever reason you have other processes running that have those names in them, kill LNbits (and potentially ngrok) manually.
 
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
