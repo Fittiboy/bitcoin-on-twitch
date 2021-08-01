@@ -1,3 +1,6 @@
+# The system in action
+Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
+
 ## Support the project
 You can tip me with some sats [here](https://fitti.io/tips)!  
 This is, and always will be, entirely free to use of course!
@@ -9,7 +12,7 @@ You need to have git, python, and it's virtualenv module installed.
 1. Create and enable a virtualenv
 1. In the venv, run `pip install -r requirements.txt`
 1. [Get an lntxbot wallet](https://t.me/lntxbot)
-1. Get an API key from lntxbot by messageing it `/api full`
+1. Get an API key from lntxbot by messaging it `/api full`
 1. Log in to https://streamlabs.com/
 1. [Register an App](https://streamlabs.com/dashboard#/apps/register)  
      As this is an app just for you, you can fill the name, description  
