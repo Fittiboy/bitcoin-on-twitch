@@ -13,7 +13,7 @@ For this to work, you need to have git, python, and its virtualenv module instal
 This will only work on Linux, and should preferably run on an always-on machine.  
 You *can* run this on Windows, using [WSL](https://duckduckgo.com/?q=how+to+install+wsl), and run it on your streaming PC while you're live.
 When using ngrok, keep in mind that your URL will change every time you restart it.  
-If you want to run it on Windows via WSL, I recommend installing Ubuntu, and running `sudo apt update ; sudo apt upgrade ; sudo apt install python3-venv git`.  
+If you want to run it on Windows via WSL, I recommend installing [Ubuntu](https://ubuntu.com/wsl), and running `sudo apt update ; sudo apt upgrade ; sudo apt install python3-venv git`.  
 1. Clone the repo and `cd` into it (`git clone https://github.com/Fittiboy/bitcoin-on-twitch ; cd bitcoin-on-twitch`)
 1. [Get an lntxbot wallet](https://t.me/lntxbot).  
    If you have a different [backend](https://lnbits.org/guide/wallets.html) that you would like to use, you can just hit enter without typing anything when you are later asked for the lntxbot API key.  
