@@ -1,46 +1,39 @@
-# The system in action
+# NOT YET FUNCTIONAL! I WILL REMOVE THIS TEXT ONCE MY EXTENSION IS MERGED IN LNBITS! THE GUIDE WILL THEN WORK!
+
+# The system in action (outdated process, will update once extension is added to LNbits)
 Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
 
 ## Support the project
 You can tip me with some sats [here](https://fitti.io/tips)!  
 This is, and always will be, entirely free to use of course!
 
-# Rough test setup guide
-This is currently intended for testing only.  
-You need to have git, python, and it's virtualenv module installed.
-1. Clone the repo and `cd` into it
-1. Create and enable a virtualenv
-1. In the venv, run `pip install -r requirements.txt`
+# Setup Guide
+For this to work, you need to have git, python, and its virtualenv module installed.  
+This will only work on Linux, and should preferably 
+1. Clone the repo and `cd` into it (`git clone https://github.com/Fittiboy/bitcoin-on-twitch ; cd bitcoin-on-twitch`)
 1. [Get an lntxbot wallet](https://t.me/lntxbot)
-1. Get an API key from lntxbot by messaging it `/api full`
-1. Log in to https://streamlabs.com/
-1. [Register an App](https://streamlabs.com/dashboard#/apps/register)  
-     As this is an app just for you, you can fill the name, description  
-     phone, and email fields with whatever you want. They are not relevant.  
-     In the "Whitelist Users" field, enter your Twitch username.  
-     In "Redirect URI", enter "http://localhost:6969".  
-1. After hitting "Create", leave this page open for now, as it contains  
-     your Client ID and Secret, which you will need in the next step  
-1. Run `python initial_setup.py` and follow the instructions (enter `localhost` as the IP for now)
-1. Run `python wait_for_token.py` and leave this running
-1. On the Streamlabs App page, click the link that says "Sample Authentication URL"  
-     towards the bottom of the page
-1. Click "Approve"; this should redirect you to a plain text page that tells you to stop the server
-1. Go back to the terminal that is running `wait_for_token.py`,  
-     and hit ctrl+c to stop the server
+1. Get an API key from lntxbot by messaging it `/api full` 
+1. Run `python initial_setup.py` and follow the instructions.
+   When it asks whether or not you want to use "ngrok," you have to make a decision:
+   The ngrok extension in LNbits will allow you to host it publicly and for free.  
+   You can read the "How it works" section [here](https://github.com/Fittiboy/lnbits/blob/TwitchAlerts/lnbits/extensions/ngrok/README.md#how-it-works) for more information. If you want to use this, simply type "y" and hit enter, otherwise "n".  
+   If you need help with web hosting, you can [send me an email](mailto:fitti@btctwt.ch) at fitti@btctwt.ch! I might be able to help you out.
 1. You should now be able to run `. ./start_lnbits.sh`, which should launch  
-     LNbits in the background, making it reachable at http://localhost:5000/
-1. Run `python webhook.py` and leave it running in the background
-1. In LNbits, create a wallet, and enable the SatsPayServer extension under "Manage extensions"
-1. In SatsPayServer, hit "NEW CHARGE," and fill out all the required fields  
-     In the "webhook" field, enter http://localhost:5001/
-1. Pay the charge with any lightning wallet  
-     (After hitting "CREATE CHARGE," the charge should appear in a list after  
-     an automatic refresh. On the very left side of that list entry is a small  
-     grey button that will open the payment link in a new tab.)
+   LNbits in the background, making it reachable at http://localhost:5000/  
+   Issues will be recorded in a file called `lnbits.log`
+1. In LNbits, create a wallet.  
+   This should bring you to a url that ends in this format : `/wallet?usr=XXXXXXXXXX&wal=YYYYYYYYYYYYY`.  
+   Keep the XXXX and YYYY (yours will look like random text and numbers) secret, but copy the **FULL URL** somewhere safe.  
+   Visiting this URL is essentially how you log in to LNbits, and so anyone who knows this URL, or the XXXX and YYYY could access your wallet.  
+   For added security, you can move your funds to a different wallet after every stream!     
+1. Follow the [extension guide](https://github.com/Fittiboy/lnbits/blob/TwitchAlerts/lnbits/extensions/streamalerts/README.md).
+1. When you publicly host this, go ahead and open your wallet through your public URL (for example, the URL shown in the ngrok extension).  
+   To access your wallet on this public URL, simply add the `/wallet?usr=XXXXXXXXXX&wal=YYYYYYYYYYYYY` part from the URL you saved.  
+   Then, navigate to the Stream Alerts extension again and there you can get the donation page link, as described in the guide in the previous step.
 
-If everything worked, you should see a new donation pop up [here](https://streamlabs.com/dashboard#/donations) (remember to refresh).  
-If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose)!
+You can try sending yourself a test donation afterwards.  
+If everything worked, you should see the donation pop up [here](https://streamlabs.com/dashboard#/donations) (remember to refresh).  
+If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose) or [send me an email](mailto:fitti@btctwt.ch) at fitti@btctwt.ch!
 
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
