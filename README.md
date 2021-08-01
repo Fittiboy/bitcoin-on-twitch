@@ -11,8 +11,10 @@ This is, and always will be, entirely free to use of course!
 For this to work, you need to have git, python, and its virtualenv module installed.  
 This will only work on Linux, and should preferably 
 1. Clone the repo and `cd` into it (`git clone https://github.com/Fittiboy/bitcoin-on-twitch ; cd bitcoin-on-twitch`)
-1. [Get an lntxbot wallet](https://t.me/lntxbot)
-1. Get an API key from lntxbot by messaging it `/api full` 
+1. [Get an lntxbot wallet](https://t.me/lntxbot).  
+   If you have a different [backend](https://lnbits.org/guide/wallets.html) that you would like to use, you can just hit enter without typing anything when you are later asked for the lntxbot API key.  
+   Keep in mind that you will have to manually set the backend in `lnbits/.env`, as explained [here](https://lnbits.org/guide/wallets.html)
+1. Get an API key from lntxbot by messaging it `/api full`.
 1. Run `python initial_setup.py` and follow the instructions.
    When it asks whether or not you want to use "ngrok," you have to make a decision:
    The ngrok extension in LNbits will allow you to host it publicly and for free.  
