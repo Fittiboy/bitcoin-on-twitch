@@ -13,6 +13,13 @@ if __name__ == "__main__":
                 key, value = line.split("=")
                 env[key] = value
     api_key = input("\nPlease input the lntxbot API key: ")
+    choices = ["y", "n"]
+    while (remove := input("Use ngrok? (y/n) ").lower()) not in choices:
+        print("Please type y or n!")
+    if remove == "y":
+        disabled = env['LNBITS_DISABLED_EXTENSIONS']
+        env['LNBITS_DISABLED_EXTENSIONS'] = disabled.replace(",ngrok", "")
+        run('. ./enable_ngrok.sh', shell=True)
     env['LNTXBOT_KEY'] = f'"{api_key}"\n'
     env['LNBITS_BACKEND_WALLET_CLASS'] = "LntxbotWallet\n"
     with open("./lnbits/.env", "w") as env_file:
