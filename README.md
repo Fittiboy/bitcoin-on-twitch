@@ -10,8 +10,8 @@ And the best part: While it supports on-chain payments, it's [lightning](https:/
 To enable this, [LNbits](https://github.com/lnbits/lnbits) is utilized, for which I wrote a special extension.  
 *It's open source all the ways down!*
 
-### The system in action (outdated process, will update *very* soon)
-Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
+### The system in action
+Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1422287674048720898)!
 
 ## Setup Guide
 
