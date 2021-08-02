@@ -1,5 +1,5 @@
 # NOT YET FUNCTIONAL! I WILL REMOVE THIS TEXT ONCE MY EXTENSION IS MERGED IN LNBITS! THE GUIDE WILL THEN WORK!
-You can go to the [temp branch](https://github.com/Fittiboy/bitcoin-on-twitch/tree/temp) to test it thought!
+You can go to the [temp branch](https://github.com/Fittiboy/bitcoin-on-twitch/tree/temp) to test it though!
 
 # The system in action (outdated process, will update once extension is added to LNbits)
 Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
