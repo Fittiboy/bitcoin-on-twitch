@@ -1,18 +1,19 @@
-# NOT YET FUNCTIONAL! I WILL REMOVE THIS TEXT ONCE MY EXTENSION IS MERGED IN LNBITS! THE GUIDE WILL THEN WORK!
-You can go to the [temp branch](https://github.com/Fittiboy/bitcoin-on-twitch/tree/temp) to test it though!
+#### [Support the project here](https://fitti.io/tips)! Since this is all free to use, I will gladly accept any donations you're willing to throw my way! 
 
-# The system in action (outdated process, will update once extension is added to LNbits)
+### Need help?
+**If you have truly no idea how to do any of this, or you're having problems:  
+fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).**
+
+# Bitcoin on Twitch
+***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
+And the best part: While it supports on-chain payments, it's [lightning](https://youtu.be/XCSfoiD8wUA)-first!  
+To enable this, [LNbits](https://github.com/lnbits/lnbits) is utilized, for which I wrote a special extension.  
+*It's open source all the ways down!*
+
+### The system in action (outdated process, will update *very* soon)
 Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
 
-# Need help?
-If you have truly no idea how to do any of this, or you're having problems:  
-fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).
-
-## Support the project
-You can tip me with some sats [here](https://fitti.io/tips)!  
-This is, and always will be, entirely free to use of course!
-
-# Setup Guide
+## Setup Guide
 
 For this to work, you need to have git, python, and its virtualenv module installed.  
 This will only work on Linux, and should preferably run on an always-on machine.  
