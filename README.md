@@ -1,15 +1,25 @@
-# NOT YET FUNCTIONAL! I WILL REMOVE THIS TEXT ONCE MY EXTENSION IS MERGED IN LNBITS! THE GUIDE WILL THEN WORK!
+#### [Support the project here](https://fitti.io/tips)! Since this is all free to use, I will gladly accept any donations you're willing to throw my way! 
 
-# The system in action (outdated process, will update once extension is added to LNbits)
+### Need help?
+**If you have truly no idea how to do any of this, or you're having problems:  
+fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).**
+
+# Bitcoin on Twitch
+***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
+And the best part: While it supports on-chain payments, it's [lightning](https://youtu.be/XCSfoiD8wUA)-first!  
+To enable this, [LNbits](https://github.com/lnbits/lnbits) is utilized, for which I wrote a special extension.  
+*It's open source all the ways down!*
+
+### The system in action (outdated process, will update *very* soon)
 Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1399753700445507590)!
 
-## Support the project
-You can tip me with some sats [here](https://fitti.io/tips)!  
-This is, and always will be, entirely free to use of course!
+## Setup Guide
 
-# Setup Guide
 For this to work, you need to have git, python, and its virtualenv module installed.  
-This will only work on Linux, and should preferably 
+This will only work on Linux, and should preferably run on an always-on machine.  
+You *can* run this on Windows, using [WSL](https://duckduckgo.com/?q=how+to+install+wsl), and run it on your streaming PC while you're live.
+When using ngrok, keep in mind that your URL will change every time you restart it.  
+If you want to run it on Windows via WSL, I recommend installing [Ubuntu](https://ubuntu.com/wsl), and running `sudo apt update ; sudo apt upgrade ; sudo apt install python3-venv git`.  
 1. Clone the repo and `cd` into it (`git clone https://github.com/Fittiboy/bitcoin-on-twitch ; cd bitcoin-on-twitch`)
 1. [Get an lntxbot wallet](https://t.me/lntxbot).  
    If you have a different [backend](https://lnbits.org/guide/wallets.html) that you would like to use, you can just hit enter without typing anything when you are later asked for the lntxbot API key.  
