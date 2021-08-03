@@ -50,6 +50,10 @@ If something went wrong, please [submit an issue](https://github.com/Fittiboy/bi
 To stop LNbits (and ngrok if it's running), run `. ./kill_lnbits.sh`, but be aware that this will kill all processes that have "lnbits" and "ngrok" in their name.
 If for whatever reason you have other processes running that have those names in them, kill LNbits (and potentially ngrok) manually.
 
+# Streamers who use this
+### Feel free to add yourself or others to this list via Pull Request!
+[Fitti](https://twitch.tv/Fitti) - _Variety gaming streamer (and also the guy who made this)_
+
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
 into their on-stream alerts with as little setup as possible.  
