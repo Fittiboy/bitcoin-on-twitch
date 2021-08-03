@@ -52,7 +52,7 @@ If for whatever reason you have other processes running that have those names in
 
 # Streamers who use this
 ### Feel free to add yourself or others to this list via Pull Request!
-[Fitti](https://twitch.tv/Fitti) - _Variety gaming streamer (and also the guy who made this)_
+[Fitti](https://twitch.tv/Fitti), donate [here](https://fitti.io/twitch) - _Variety gaming streamer (and also the guy who made this)_
 
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
