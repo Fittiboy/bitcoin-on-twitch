@@ -3,7 +3,7 @@ if __name__ == "__main__":
         env = {}
         for line in env_file.readlines():
             if "=" in line:
-                key, value = line.split("=")
+                key, value = line.split("=", 1)
                 env[key] = value
     user = input("Input your user ID: ")
     allowed_users = env['LNBITS_ALLOWED_USERS'].strip('"\n')

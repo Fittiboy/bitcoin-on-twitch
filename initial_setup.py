@@ -8,7 +8,7 @@ if __name__ == "__main__":
         env = {}
         for line in env_file.readlines():
             if "=" in line:
-                key, value = line.split("=")
+                key, value = line.split("=", 1)
                 env[key] = value
     api_key = input("\nPlease input the lntxbot API key: ")
     choices = ["y", "n"]
