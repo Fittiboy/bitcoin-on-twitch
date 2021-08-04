@@ -43,7 +43,7 @@ If you want to run it on Windows via WSL, I recommend installing [Ubuntu](https:
    Visiting this URL is essentially how you log in to LNbits, and so anyone who knows this URL, or the XXXX and YYYY could access your wallet.  
    For added security, you can move your funds to a different wallet after every stream!
 1. Right now, anyone with access to the URL could create new wallets and use your LNbits. To prevent this, do the following:
-   copy the XXXXXXXXXX from the url (usr=**XXXXXXXXXX**&wal=YYYYYYYYYYYYY) and run `python whitelist_user.py`. Paste your user ID when prompted.  
+   copy *just* the ***XXXXXXXXXX*** from the url (usr=***XXXXXXXXXX***&wal=...) and run `python whitelist_user.py`. Paste your user ID when prompted.  
    Now you can restart LNbits (`. ./kill_lnbits.sh ; . ./start_lnbits.sh`), and you should now get an error when trying to create a new login!
 1. Follow the [extension guide](https://github.com/Fittiboy/lnbits/blob/TwitchAlerts/lnbits/extensions/streamalerts/README.md).
 1. When you publicly host this, go ahead and open your wallet through your public URL (for example, the URL shown in the ngrok extension).  
