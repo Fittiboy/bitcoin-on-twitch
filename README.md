@@ -1,9 +1,12 @@
+[![Telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/bitcoinontwitch)
+
 #### [Support the project here](https://fitti.io/tips)! Since this is all free to use, I will gladly accept any donations you're willing to throw my way!  
-![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)
+[![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)](https://fitti.io/tips)
 
 ### Need help?
 **If you have truly no idea how to do any of this, or you're having problems:  
-fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).**
+fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).**  
+I also made a Telegram group for anyone to join: https://t.me/bitcoinontwitch
 
 # Bitcoin on Twitch
 ***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
