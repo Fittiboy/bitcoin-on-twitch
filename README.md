@@ -59,7 +59,8 @@ If for whatever reason you have other processes running that have those names in
 
 # Streamers who use this
 ### Feel free to add yourself or others to this list via Pull Request!
-[Fitti](https://twitch.tv/Fitti), donate [here](https://fitti.io/twitch) - _Variety gaming streamer (and also the guy who made this)_
+[Fitti](https://twitch.tv/Fitti), donate [here](https://fitti.io/twitch) - _Variety gaming streamer (and also the guy who made this)_  
+[Konqi](https://www.twitch.tv/konqi), donate [here](http://172.245.55.115:5000/streamalerts/fCe6ku32aMy9UzuwFf7MGQ) - _Random VR games_
 
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
