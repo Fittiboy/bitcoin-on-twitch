@@ -13,7 +13,7 @@ I also made a Telegram group for anyone to join: https://t.me/bitcoinontwitch
 ***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
 And the best part: While it supports on-chain payments, it's [lightning](https://youtu.be/XCSfoiD8wUA)-first!  
 To enable this, [LNbits](https://github.com/lnbits/lnbits) is utilized, for which I wrote a special extension.  
-*It's open source all the ways down!*
+*It's open source all the way down!*
 
 ### The system in action
 Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1422287674048720898)!
