@@ -7,7 +7,7 @@ Lightning Address: [tips@fitti.io](https://fitti.io/lnurl)
 
 ### Need help?
 **If you have truly no idea how to do any of this, or you're having problems:  
-fitti@btctwt.ch or (very cheap) [paid Bitcoin priority DMs](https://fitti.io/dm) (remember to include information for me to contact you back).**  
+[fitti@btctwt.ch](mailto:fitti@btctwt.ch)**  
 I also made a Telegram group for anyone to join: https://t.me/bitcoinontwitch
 
 # Bitcoin on Twitch
