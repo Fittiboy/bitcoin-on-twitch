@@ -5,9 +5,10 @@
 Lightning Address: [tips@fitti.io](https://fitti.io/lnurl)  
 [![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)](https://fitti.io/tips)
 
-### Need help?
-**If you have truly no idea how to do any of this, or you're having problems:  
-[fitti@btctwt.ch](mailto:fitti@btctwt.ch)**  
+# Need help?
+**If you have truly no idea how to do any of this, or you're having problems:**  
+Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message **[on Telegram](https://t.me/Fittiboy)** or **[Keybase](https://keybase.io/Fitti)**!  
+
 I also made a Telegram group for anyone to join: https://t.me/bitcoinontwitch
 
 # Bitcoin on Twitch
