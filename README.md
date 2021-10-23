@@ -1,15 +1,16 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/bitcoinontwitch)
-[![Amboss.Space](https://img.shields.io/badge/Amboss%20Space-Community-blue)](https://amboss.space/community/dbd3a924-2397-489f-9df7-8fffdcf72ae5)
-
-#### [Support the project here](https://fitti.io/tips)! Since this is all free to use, I will gladly accept any donations you're willing to throw my way!  
-Lightning Address: [tips@fitti.io](https://fitti.io/lnurl)  
-[![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)](https://fitti.io/tips)
+[![Amboss.Space](https://img.shields.io/badge/Amboss%20Space-Community-blue)](https://amboss.space/community/dbd3a924-2397-489f-9df7-8fffdcf72ae5)  
 
 # Need help?
 **If you have truly no idea how to do any of this, or you're having problems:**  
-Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message **[on Telegram](https://t.me/Fittiboy)** or **[Keybase](https://keybase.io/Fitti)**!  
+Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message on **[Telegram](https://t.me/Fittiboy)**, **[Keybase](https://keybase.io/Fitti)**, or **[Twitter](https://twitter.com/Fittiboy)**! (I take longer to notice messages on Twitter)  
 
-I also made a Telegram group for anyone to join: https://t.me/bitcoinontwitch
+I also made a **[Telegram group](https://t.me/bitcoinontwitch)** for anyone to join.  
+
+## Support the project [here](https://fitti.io/tips)!  
+As this solution is entirely free to use, I will gladly accept any donations you're willing to throw my way!  
+Lightning Address: [tips@fitti.io](https://fitti.io/lnurl)  
+[![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)](https://fitti.io/tips)  
 
 # Bitcoin on Twitch
 ***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
