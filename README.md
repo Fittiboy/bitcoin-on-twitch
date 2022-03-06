@@ -18,9 +18,6 @@ And the best part: While it supports on-chain payments, it's [lightning](https:/
 To enable this, [LNbits](https://github.com/lnbits/lnbits) is utilized, for which I wrote a special extension.  
 *It's open source all the way down!*
 
-### The system in action
-Check out [how seamlessly the project works](https://twitter.com/Fittiboy/status/1422287674048720898)!
-
 ## Setup Guide
 
 For this to work, you need to have git, python, and its virtualenv module installed.  
