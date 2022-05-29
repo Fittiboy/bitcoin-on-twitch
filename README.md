@@ -7,10 +7,9 @@ Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message 
 
 I also made a **[Telegram group](https://t.me/bitcoinontwitch)** for anyone to join.  
 
-## Support the project [here](https://fitti.io/tips)!  
+## Want to support the project!  
 As this solution is entirely free to use, I will gladly accept any donations you're willing to throw my way!  
-Lightning Address: [tips@fitti.io](https://fitti.io/lnurl)  
-[![image](https://user-images.githubusercontent.com/28876473/128099346-c8556016-eb1e-4ce8-91d8-2b7795f91152.png)](https://fitti.io/tips)  
+Lightning Address: ⚡f@fitti.io
 
 # Bitcoin on Twitch
 ***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
