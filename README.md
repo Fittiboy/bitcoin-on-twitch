@@ -1,9 +1,11 @@
 [![Telegram](https://img.shields.io/badge/Telegram-Join-blue)](https://t.me/bitcoinontwitch)
 [![Amboss.Space](https://img.shields.io/badge/Amboss%20Space-Community-blue)](https://amboss.space/community/dbd3a924-2397-489f-9df7-8fffdcf72ae5)  
 
+# This project is not being actively maintained!
+
 # Need help?
 **If you have truly no idea how to do any of this, or you're having problems:**  
-Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message on **[Telegram](https://t.me/Fittiboy)**, **[Keybase](https://keybase.io/Fitti)**, or **[Twitter](https://twitter.com/Fittiboy)**! (I take longer to notice messages on Twitter)  
+Email me at **[dev@fitti.io](mailto:dev@fitti.io)** or shoot me a message on **[Telegram](https://t.me/Fittiboy)**, **[Keybase](https://keybase.io/Fitti)**, or **[Twitter](https://twitter.com/Fittiboy)**! (I take longer to notice messages on Twitter)  
 
 I also made a **[Telegram group](https://t.me/bitcoinontwitch)** for anyone to join.  
 
@@ -56,11 +58,6 @@ If something went wrong, please [submit an issue](https://github.com/Fittiboy/bi
 
 To stop LNbits (and ngrok if it's running), run `. ./kill_lnbits.sh`, but be aware that this will kill all processes that have "lnbits" and "ngrok" in their name.
 If for whatever reason you have other processes running that have those names in them, kill LNbits (and potentially ngrok) manually.
-
-# Streamers who use this
-### Feel free to add yourself or others to this list via Pull Request!
-[Fitti](https://twitch.tv/Fitti), donate [here](https://fitti.io/twitch "Nice") - _Variety gaming streamer (and also the guy who made this)_  
-[Konqi](https://www.twitch.tv/konqi), donate [here](http://172.245.55.115:5000/streamalerts/fCe6ku32aMy9UzuwFf7MGQ) - _Random VR games_
 
 ## Contributing
 I want this to be a project that allows streamers on Twitch to integrate Bitcoin donations  
