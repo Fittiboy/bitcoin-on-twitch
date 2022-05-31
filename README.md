@@ -7,7 +7,7 @@ Email me at **[fitti@btctwt.ch](mailto:fitti@btctwt.ch)** or shoot me a message 
 
 I also made a **[Telegram group](https://t.me/bitcoinontwitch)** for anyone to join.  
 
-## Want to support the project!  
+## Want to support the project?  
 As this solution is entirely free to use, I will gladly accept any donations you're willing to throw my way!  
 Lightning Address: ⚡f@fitti.io
 
