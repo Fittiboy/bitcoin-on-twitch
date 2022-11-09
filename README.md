@@ -29,7 +29,7 @@ If you want to run it on Windows via WSL, I recommend installing [Ubuntu](https:
    When it asks whether or not you want to use "ngrok," you have to make a decision:
    The ngrok extension in LNbits will allow you to host it publicly and for free.  
    You can read the "How it works" section [here](https://github.com/Fittiboy/lnbits/blob/TwitchAlerts/lnbits/extensions/ngrok/README.md#how-it-works) for more information. If you want to use this, simply type "y" and hit enter, otherwise "n".  
-   If you need help with web hosting, you can [send me an email](mailto:fitti@btctwt.ch) at fitti@btctwt.ch! I might be able to help you out.
+   If you need help with web hosting, you can [send me an email](mailto:dev@fitti.io) at dev@fitti.io! I might be able to help you out.
 1. You should now be able to run `. ./start_lnbits.sh`, which should launch  
    LNbits in the background, making it reachable at http://localhost:5000/  
    Issues will be recorded in a file called `lnbits.log`
