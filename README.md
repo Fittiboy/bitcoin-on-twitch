@@ -7,12 +7,6 @@
 **If you have truly no idea how to do any of this, or you're having problems:**  
 Email me at **[dev@fitti.io](mailto:dev@fitti.io)** or shoot me a message on **[Telegram](https://t.me/Fittiboy)**, **[Keybase](https://keybase.io/Fitti)**, or **[Twitter](https://twitter.com/Fittiboy)**! (I take longer to notice messages on Twitter)  
 
-I also made a **[Telegram group](https://t.me/bitcoinontwitch)** for anyone to join.  
-
-## Want to support the project?  
-As this solution is entirely free to use, I will gladly accept any donations you're willing to throw my way!  
-Lightning Address: ⚡f@fitti.io
-
 # Bitcoin on Twitch
 ***Want to accept Bitcoin donations on Twitch?*** This will allow you to not only accept Bitcoin, but also have those donations show up in your Streamlabs alerts!
 And the best part: While it supports on-chain payments, it's [lightning](https://youtu.be/XCSfoiD8wUA)-first!  
