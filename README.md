@@ -48,7 +48,7 @@ If you want to run it on Windows via WSL, I recommend installing [Ubuntu](https:
 
 You can try sending yourself a test donation afterwards.  
 If everything worked, you should see the donation pop up [here](https://streamlabs.com/dashboard#/donations) (remember to refresh).  
-If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose) or [send me an email](mailto:fitti@btctwt.ch) at fitti@btctwt.ch!  
+If something went wrong, please [submit an issue](https://github.com/Fittiboy/bitcoin-on-twitch/issues/new/choose) or [send me an email](mailto:dev@fitti.io) at dev@fitti.io!  
 
 To stop LNbits (and ngrok if it's running), run `. ./kill_lnbits.sh`, but be aware that this will kill all processes that have "lnbits" and "ngrok" in their name.
 If for whatever reason you have other processes running that have those names in them, kill LNbits (and potentially ngrok) manually.
